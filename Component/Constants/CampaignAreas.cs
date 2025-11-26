@@ -1,4 +1,4 @@
-﻿using LiveSplit.PathOfExile2AutoSplitter.Component.DTOs;
+using LiveSplit.PathOfExile2AutoSplitter.Component.DTOs;
 using LiveSplit.PathOfExile2AutoSplitter.Component.Enums;
 
 namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
@@ -9,7 +9,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheRiverbank = new CampaignAreaDto
         {
             AreaId = "G1_1",
-            AreaName = "The Riverbank",
+            AreaName = "河岸",
             IconType = EnIconType.NoWaypoint,
             IsMandatory = true
         };
@@ -17,7 +17,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ClearfellEncampment = new CampaignAreaDto
         {
             AreaId = "G1_town",
-            AreaName = "Clearfell Encampment",
+            AreaName = "皆伐營地",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -25,7 +25,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Clearfell = new CampaignAreaDto
         {
             AreaId = "G1_2",
-            AreaName = "Clearfell",
+            AreaName = "皆伐",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -33,7 +33,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto MudBurrow = new CampaignAreaDto
         {
             AreaId = "G1_3",
-            AreaName = "Mud Burrow",
+            AreaName = "泥沼陋居",
             IconType = EnIconType.InteriorNoWaypoint,
             IsMandatory = false
         };
@@ -41,7 +41,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheGrelwood = new CampaignAreaDto
         {
             AreaId = "G1_4",
-            AreaName = "The Grelwood",
+            AreaName = "葛瑞爾林",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -49,7 +49,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheRedVale = new CampaignAreaDto
         {
             AreaId = "G1_5",
-            AreaName = "The Red Vale",
+            AreaName = "赤谷",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -57,7 +57,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheGrimTangle = new CampaignAreaDto
         {
             AreaId = "G1_6",
-            AreaName = "The Grim Tangle",
+            AreaName = "纏縛陰林",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -65,7 +65,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto CemeteryOfTheEternals = new CampaignAreaDto
         {
             AreaId = "G1_7",
-            AreaName = "Cemetery of the Eternals",
+            AreaName = "不朽帝國之墓",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -73,7 +73,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto MausoleumOfThePraetor = new CampaignAreaDto
         {
             AreaId = "G1_8",
-            AreaName = "Mausoleum of the Praetor",
+            AreaName = "政務官陵墓",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -81,7 +81,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TombOfTheConsort = new CampaignAreaDto
         {
             AreaId = "G1_9",
-            AreaName = "Tomb of the Consort",
+            AreaName = "配偶的墓室",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -89,7 +89,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto HuntingGrounds = new CampaignAreaDto
         {
             AreaId = "G1_11",
-            AreaName = "Hunting Grounds",
+            AreaName = "獵場",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -97,7 +97,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Freythorn = new CampaignAreaDto
         {
             AreaId = "G1_12",
-            AreaName = "Freythorn",
+            AreaName = "弗雷索恩",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -105,7 +105,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto OghamFarmlands = new CampaignAreaDto
         {
             AreaId = "G1_13_1",
-            AreaName = "Ogham Farmlands",
+            AreaName = "奧格姆農地",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -113,7 +113,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto OghamVillage = new CampaignAreaDto
         {
             AreaId = "G1_13_2",
-            AreaName = "Ogham Village",
+            AreaName = "奧格姆村",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -121,7 +121,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheManorRamparts = new CampaignAreaDto
         {
             AreaId = "G1_14",
-            AreaName = "The Manor Ramparts",
+            AreaName = "宅第壁壘",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -129,7 +129,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto OghamManor = new CampaignAreaDto
         {
             AreaId = "G1_15",
-            AreaName = "Ogham Manor",
+            AreaName = "奧格姆宅第",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -139,7 +139,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto VastiriOutskirts = new CampaignAreaDto
         {
             AreaId = "G2_1",
-            AreaName = "Vastiri Outskirts",
+            AreaName = "瓦斯提里郊區",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -147,7 +147,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheArduraCaravan = new CampaignAreaDto
         {
             AreaId = "G2_town",
-            AreaName = "The Ardura Caravan",
+            AreaName = "阿杜拉車隊",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -155,7 +155,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto MawdunQuarry = new CampaignAreaDto
         {
             AreaId = "G2_10_1",
-            AreaName = "Mawdun Quarry",
+            AreaName = "莫頓挖石場",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -163,7 +163,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto MawdunMine = new CampaignAreaDto
         {
             AreaId = "G2_10_2",
-            AreaName = "Mawdun Mine",
+            AreaName = "莫頓礦坑",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -171,7 +171,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TraitorsPassage = new CampaignAreaDto
         {
             AreaId = "G2_2",
-            AreaName = "Traitor's Passage",
+            AreaName = "叛徒之路",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -179,7 +179,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheHalaniGates = new CampaignAreaDto
         {
             AreaId = "G2_3",
-            AreaName = "The Halani Gates",
+            AreaName = "哈拉妮關口",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -187,7 +187,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Keth = new CampaignAreaDto
         {
             AreaId = "G2_4_1",
-            AreaName = "Keth",
+            AreaName = "凱斯城",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -195,7 +195,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheLostCity = new CampaignAreaDto
         {
             AreaId = "G2_4_2",
-            AreaName = "The Lost City",
+            AreaName = "失落之城",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -203,7 +203,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto BuriedShrines = new CampaignAreaDto
         {
             AreaId = "G2_4_3",
-            AreaName = "Buried Shrines",
+            AreaName = "掩埋神殿",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -211,7 +211,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto MastodonBadlands = new CampaignAreaDto
         {
             AreaId = "G2_5_1",
-            AreaName = "Mastodon Badlands",
+            AreaName = "乳齒象惡地",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -220,7 +220,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto LightlessPassage = new CampaignAreaDto
         {
             AreaId = "Abyss_Intro",
-            AreaName = "Lightless Passage",
+            AreaName = "無光通道",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = false
         };
@@ -228,7 +228,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheWellOfSouls = new CampaignAreaDto
         {
             AreaId = "Abyss_Hub",
-            AreaName = "The Well of Souls",
+            AreaName = "靈魂深井",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = false
         };
@@ -237,7 +237,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheBonePits = new CampaignAreaDto
         {
             AreaId = "G2_5_2",
-            AreaName = "The Bone Pits",
+            AreaName = "骨坑",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -245,7 +245,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ValleyOfTheTitans = new CampaignAreaDto
         {
             AreaId = "G2_6",
-            AreaName = "Valley of the Titans",
+            AreaName = "泰坦之谷",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -253,7 +253,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheTitanGrotto = new CampaignAreaDto
         {
             AreaId = "G2_7",
-            AreaName = "The Titan Grotto",
+            AreaName = "泰坦石窟",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -261,7 +261,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Deshar = new CampaignAreaDto
         {
             AreaId = "G2_8",
-            AreaName = "Deshar",
+            AreaName = "戴斯哈",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -269,7 +269,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto PathOfMourning = new CampaignAreaDto
         {
             AreaId = "G2_9_1",
-            AreaName = "Path of Mourning",
+            AreaName = "悼念之路",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -277,7 +277,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheSpiresOfDeshar = new CampaignAreaDto
         {
             AreaId = "G2_9_2",
-            AreaName = "The Spires of Deshar",
+            AreaName = "戴斯哈尖塔",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -285,7 +285,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheDreadnought = new CampaignAreaDto
         {
             AreaId = "G2_12_1",
-            AreaName = "The Dreadnought",
+            AreaName = "無畏隊",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -293,7 +293,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto DreadnoughtVanguard = new CampaignAreaDto
         {
             AreaId = "G2_12_2",
-            AreaName = "Dreadnought Vanguard",
+            AreaName = "無畏隊先鋒",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -301,7 +301,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TrialOfTheSekhemas = new CampaignAreaDto
         {
             AreaId = "G2_13",
-            AreaName = "Trial of the Sekhemas",
+            AreaName = "絲克瑪試煉",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -311,7 +311,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto SandsweptMarsh = new CampaignAreaDto
         {
             AreaId = "G3_1",
-            AreaName = "Sandswept Marsh",
+            AreaName = "風沙沼澤",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -319,7 +319,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ZigguratEncampment = new CampaignAreaDto
         {
             AreaId = "G3_town",
-            AreaName = "Ziggurat Encampment",
+            AreaName = "高地神塔營地",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -327,7 +327,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto JungleRuins = new CampaignAreaDto
         {
             AreaId = "G3_3",
-            AreaName = "Jungle Ruins",
+            AreaName = "叢林遺跡",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -335,7 +335,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheVenomCrypts = new CampaignAreaDto
         {
             AreaId = "G3_4",
-            AreaName = "The Venom Crypts",
+            AreaName = "劇毒墓穴",
             IconType = EnIconType.InteriorNoWaypoint,
             IsMandatory = false
         };
@@ -343,7 +343,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto InfestedBarrens = new CampaignAreaDto
         {
             AreaId = "G3_2_1",
-            AreaName = "Infested Barrens",
+            AreaName = "感染荒地",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -351,7 +351,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto AzakBog = new CampaignAreaDto
         {
             AreaId = "G3_7",
-            AreaName = "The Azak Bog",
+            AreaName = "阿札克泥沼",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -359,7 +359,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ChimeralWetlands = new CampaignAreaDto
         {
             AreaId = "G3_5",
-            AreaName = "Chimeral Wetlands",
+            AreaName = "龍蜥濕地",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -367,7 +367,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto JiquanisMachinarium = new CampaignAreaDto
         {
             AreaId = "G3_6_1",
-            AreaName = "Jiquani's Machinarium",
+            AreaName = "吉卡尼的機械迷城",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -375,7 +375,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto JiquanisSanctum = new CampaignAreaDto
         {
             AreaId = "G3_6_2",
-            AreaName = "Jiquani's Sanctum",
+            AreaName = "吉卡尼的聖域",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -383,7 +383,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheMatlanWaterways = new CampaignAreaDto
         {
             AreaId = "G3_2_2",
-            AreaName = "The Matlan Waterways",
+            AreaName = "瑪特蘭水道",
             IconType = EnIconType.NoWaypoint,
             IsMandatory = true
         };
@@ -391,7 +391,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheDrownedCity = new CampaignAreaDto
         {
             AreaId = "G3_8",
-            AreaName = "The Drowned City",
+            AreaName = "淹沒之城",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -399,7 +399,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheMoltenVault = new CampaignAreaDto
         {
             AreaId = "G3_9",
-            AreaName = "The Molten Vault",
+            AreaName = "熔岩寶庫",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = false
         };
@@ -407,7 +407,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ApexOfFilth = new CampaignAreaDto
         {
             AreaId = "G3_11",
-            AreaName = "Apex of Filth",
+            AreaName = "污垢頂峰",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -415,7 +415,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TempleOfKopec = new CampaignAreaDto
         {
             AreaId = "G3_12",
-            AreaName = "Temple of Kopec",
+            AreaName = "科佩克神殿",
             IconType = EnIconType.InteriorNoWaypoint,
             IsMandatory = true
         };
@@ -423,7 +423,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Utzaal = new CampaignAreaDto
         {
             AreaId = "G3_14",
-            AreaName = "Utzaal",
+            AreaName = "奧札爾",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -431,7 +431,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Aggorat = new CampaignAreaDto
         {
             AreaId = "G3_16",
-            AreaName = "Aggorat",
+            AreaName = "阿戈拉",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -439,7 +439,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheBlackChambers = new CampaignAreaDto
         {
             AreaId = "G3_17",
-            AreaName = "The Black Chambers",
+            AreaName = "漆黑密室",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -447,7 +447,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheTempleOfChaos = new CampaignAreaDto
         {
             AreaId = "G3_10_Airlock",
-            AreaName = "The Temple of Chaos",
+            AreaName = "混沌神殿",
             IconType = EnIconType.InteriorWaypoint,
             IsMandatory = true
         };
@@ -458,7 +458,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Kingsmarch = new CampaignAreaDto
         {
             AreaId = "G4_town",
-            AreaName = "Kingsmarch",
+            AreaName = "金司馬區",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -466,7 +466,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto IsleOfKin = new CampaignAreaDto
         {
             AreaId = "G4_1_1",
-            AreaName = "Isle of Kin",
+            AreaName = "金氏島",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -474,7 +474,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto VolcanicWarrens = new CampaignAreaDto
         {
             AreaId = "G4_1_2",
-            AreaName = "Volcanic Warrens",
+            AreaName = "火山迷窟",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -482,7 +482,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto EyeOfHinekora = new CampaignAreaDto
         {
             AreaId = "G4_4_1",
-            AreaName = "Eye of Hinekora",
+            AreaName = "悉妮蔻拉之眼",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -490,7 +490,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto HallsOfTheDead = new CampaignAreaDto
         {
             AreaId = "G4_4_2",
-            AreaName = "Halls of the Dead",
+            AreaName = "亡者之殿",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -498,7 +498,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TrialOfTheAncestors = new CampaignAreaDto
         {
             AreaId = "G4_4_3",
-            AreaName = "Trial of the Ancestors",
+            AreaName = "祖靈的試煉",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -506,7 +506,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto KedgeBay = new CampaignAreaDto
         {
             AreaId = "G4_2_1",
-            AreaName = "Kedge Bay",
+            AreaName = "凱吉灣",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -514,7 +514,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto JourneysEnd = new CampaignAreaDto
         {
             AreaId = "G4_2_2",
-            AreaName = "Journey's End",
+            AreaName = "旅程結束",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -522,7 +522,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto AbandonedPrison = new CampaignAreaDto
         {
             AreaId = "G4_5_1",
-            AreaName = "Abandoned Prison",
+            AreaName = "廢棄監獄",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -530,7 +530,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto SolitaryConfinement = new CampaignAreaDto
         {
             AreaId = "G4_5_2",
-            AreaName = "Solitary Confinement",
+            AreaName = "單獨禁閉",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -538,7 +538,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto WhakapanuIsland = new CampaignAreaDto
         {
             AreaId = "G4_3_1",
-            AreaName = "Whakapanu Island",
+            AreaName = "瓦卡帕努島",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -546,7 +546,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto SingingCaverns = new CampaignAreaDto
         {
             AreaId = "G4_3_2",
-            AreaName = "Singing Caverns",
+            AreaName = "吟謠洞窟",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -554,7 +554,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ShrikeIsland = new CampaignAreaDto
         {
             AreaId = "G4_7",
-            AreaName = "Shrike Island",
+            AreaName = "伯勞鳥之島",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -562,7 +562,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Arastas = new CampaignAreaDto
         {
             AreaId = "G4_8b",
-            AreaName = "Arastas",
+            AreaName = "阿拉塔斯",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -570,7 +570,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheExcavation = new CampaignAreaDto
         {
             AreaId = "G4_10",
-            AreaName = "The Excavation",
+            AreaName = "挖掘",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -578,7 +578,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Ngakanu = new CampaignAreaDto
         {
             AreaId = "G4_11_1b",
-            AreaName = "Ngakanu",
+            AreaName = "尼加卡努",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -586,7 +586,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto HeartOfTheTribe = new CampaignAreaDto
         {
             AreaId = "G4_11_2",
-            AreaName = "Heart of the Tribe",
+            AreaName = "部族之心",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -594,7 +594,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto PlundersPoint = new CampaignAreaDto
         {
             AreaId = "G4_13",
-            AreaName = "Plunder's Point",
+            AreaName = "掠奪者之角",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -604,7 +604,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheRefuge = new CampaignAreaDto
         {
             AreaId = "P1_Town",
-            AreaName = "The Refuge",
+            AreaName = "庇護所",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -612,7 +612,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto ScorchedFarmlands = new CampaignAreaDto
         {
             AreaId = "P1_1",
-            AreaName = "Scorched Farmlands",
+            AreaName = "火噬農地",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -620,7 +620,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto StonesOfSerle = new CampaignAreaDto
         {
             AreaId = "P1_2",
-            AreaName = "Stones of Serle",
+            AreaName = "瑟雷之石",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -628,7 +628,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheBlackwood = new CampaignAreaDto
         {
             AreaId = "P1_3",
-            AreaName = "The Blackwood",
+            AreaName = "黑木林",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -636,7 +636,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Holten = new CampaignAreaDto
         {
             AreaId = "P1_4",
-            AreaName = "Holten",
+            AreaName = "霍爾登",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -644,7 +644,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Wolvenhold = new CampaignAreaDto
         {
             AreaId = "P1_5",
-            AreaName = "Wolvenhold",
+            AreaName = "狼之要塞",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -652,7 +652,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto HoltenEstate = new CampaignAreaDto
         {
             AreaId = "P1_6",
-            AreaName = "Holten Estate",
+            AreaName = "霍爾登宅第",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -662,7 +662,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheKhariBazaar = new CampaignAreaDto
         {
             AreaId = "P2_Town",
-            AreaName = "The Khari Bazaar",
+            AreaName = "卡里市集",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -670,7 +670,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheKhariCrossing = new CampaignAreaDto
         {
             AreaId = "P2_1",
-            AreaName = "The Khari Crossing",
+            AreaName = "卡里交匯道",
             IconType = EnIconType.NoWaypoint,
             IsMandatory = true
         };
@@ -678,7 +678,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto PoolsOfKhatal = new CampaignAreaDto
         {
             AreaId = "P2_2",
-            AreaName = "Pools of Khatal",
+            AreaName = "卡塔爾之塘",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -686,7 +686,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto SelKhariSanctuary = new CampaignAreaDto
         {
             AreaId = "P2_3",
-            AreaName = "Sel Khari Sanctuary",
+            AreaName = "塞爾卡里庇護所",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -694,7 +694,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheGalaiGates = new CampaignAreaDto
         {
             AreaId = "P2_5",
-            AreaName = "The Galai Gates",
+            AreaName = "賈萊關口",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -702,7 +702,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto Qimah = new CampaignAreaDto
         {
             AreaId = "P2_6",
-            AreaName = "Qimah",
+            AreaName = "奇瑪",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -710,7 +710,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto QimahReservoir = new CampaignAreaDto
         {
             AreaId = "P2_7",
-            AreaName = "Qimah Reservoir",
+            AreaName = "奇瑪水源地",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -720,7 +720,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheGlade = new CampaignAreaDto
         {
             AreaId = "P3_Town",
-            AreaName = "The Glade",
+            AreaName = "林間空地",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
@@ -728,7 +728,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto AshenForest = new CampaignAreaDto
         {
             AreaId = "P3_1",
-            AreaName = "Ashen Forest",
+            AreaName = "灰燼森林",
             IconType = EnIconType.NoWaypoint,
             IsMandatory = true
         };
@@ -736,7 +736,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto KriarVillage = new CampaignAreaDto
         {
             AreaId = "P3_2",
-            AreaName = "Kriar Village",
+            AreaName = "庫萊亞村",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -744,7 +744,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto GlacialTarn = new CampaignAreaDto
         {
             AreaId = "P3_3",
-            AreaName = "Glacial Tarn",
+            AreaName = "冰川湖泊",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -752,7 +752,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto HowlingCaves = new CampaignAreaDto
         {
             AreaId = "P3_4",
-            AreaName = "Howling Caves",
+            AreaName = "狂嗥洞穴",
             IconType = EnIconType.Waypoint,
             IsMandatory = false
         };
@@ -760,7 +760,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto KriarPeaks = new CampaignAreaDto
         {
             AreaId = "P3_5",
-            AreaName = "Kriar Peaks",
+            AreaName = "庫萊亞山巔",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -768,7 +768,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto EtchedRavine = new CampaignAreaDto
         {
             AreaId = "P3_6",
-            AreaName = "Etched Ravine",
+            AreaName = "蝕刻溪谷",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -776,7 +776,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto CuachicVault = new CampaignAreaDto
         {
             AreaId = "P3_7",
-            AreaName = "The Cuachic Vault",
+            AreaName = "庫阿西克寶庫",
             IconType = EnIconType.Waypoint,
             IsMandatory = true
         };
@@ -786,7 +786,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Constants
         public static readonly CampaignAreaDto TheZigguratRefuge = new CampaignAreaDto
         {
             AreaId = "G_Endgame_Town",
-            AreaName = "The Ziggurat Refuge",
+            AreaName = "高地神塔庇護所",
             IconType = EnIconType.Town,
             IsMandatory = true
         };
