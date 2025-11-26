@@ -76,16 +76,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\LiveSplit\src\LiveSplit.Core\LiveSplit.Core.csproj">
-      <Project>{99e2244e-b654-5e81-6c76-41ee613fa5e6}</Project>
-      <Name>LiveSplit.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\LiveSplit\src\UpdateManager\UpdateManager.csproj">
-      <Project>{de01d912-ec5d-da26-f31e-682152886534}</Project>
-      <Name>UpdateManager</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Component\SettingsControl.resx">
       <DependentUpon>SettingsControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +108,15 @@
     <Content Include="readme.md" />
     <Content Include="Resources\LevelUp.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\LiveSplitRaw\src\LiveSplit.Core\LiveSplit.Core.csproj">
+      <Project>{0e4eaecc-5cdf-6527-f56e-e6e80121f499}</Project>
+      <Name>LiveSplit.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LiveSplitRaw\src\UpdateManager\UpdateManager.csproj">
+      <Project>{31745230-e7a6-d6a7-13de-728439f3c8d1}</Project>
+      <Name>UpdateManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
