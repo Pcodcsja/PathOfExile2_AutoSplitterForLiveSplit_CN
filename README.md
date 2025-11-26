@@ -1,41 +1,34 @@
-﻿# Path of Exile 2 AutoSplitter for LiveSplit
+﻿## 使用方法
+- 下载release里的DLL文件
+- 将DLL文件放入LiveSplit的Components文件夹中（通常在C:\Program Files (x86)\LiveSplit\Components）
+- 启动LiveSplit
+- 在LiveSplit中，右键点击计时器，选择“Edit Split”
+- 在“Edit Splits”窗口中，在Game Name中填入“Path of Exile 2”，正确识别后会有提示“An auto Splits...”
+- 点击Activate，点击Settings进行自定义设置
+- 选择日志文件的路径，一般是游戏文件里logs文件夹的“Client.txt”文件
+- AutoSplitter 提供了多种分割模式：活动（100%）、活动（任意%）和等级。
+	- Campaign (100%)包含战役中的所有区域，直至通天塔避难所。
+	- Campaign (Any%) 仅包含必要的战役区域和升华区域。
+	- Level 达到下一个等级时将自动分割。
+- 勾选“Enable Auto Splitting”后，当您首次进入指定的战役区域时，自动分割器将进行分割。如果您按等级进行分割，则会在升级时进行分割。
+- 进入区域的顺序很重要，因为分段器目前无法区分进入的是哪个区域以及当前分段索引的位置。如果你计划采用与预设不同的顺序，请在开始游戏前通过“编辑分段”菜单调整你的分段设置。
+- 启用“Enable New Character Auto Start”后，当你进入河岸区域时将自动开始计时。
 
-<img width="434" height="411" alt="image" src="https://github.com/user-attachments/assets/3b6b2b1a-cea5-4957-a9b0-410048026363" />
+## 即将推出的功能 
 
-<img width="495" height="663" alt="image" src="https://github.com/user-attachments/assets/b6560423-8c31-4ef3-bbbd-0cf32572e164" />
+- 首领对话分段情况，以实现更精确的分段时间（永恒墓地）
+- 首领突袭设置，适用于所有首领和仅限必要首领。
+- 非线性分段，允许无序进度推进。
+- 测验 / 实现与此存档并退出组件的兼容性：https://github.com/Shotnex4/LiveSplit.TimeAttackPause
+- 布局设置上的工具提示。
+- 移除读档时间（希望如此！）
 
-## Installation
-- Download and extract the repo.
-- In PathOfExile2_AutoSplitterForLiveSplit-main > Component > DLL, find the LiveSplit.PathOfExile2AutoSplitter.dll file.
-- Move it to your LiveSplit > Components folder.
-- Open LiveSplit, right-click and select 'Edit Layout'.
-- Click the + button, 'Timer' > 'Path of Exile 2'.
-- Adjust the AutoSplitter settings by selecting 'Layout Settings' > 'Path of Exile 2'.
+## 已知问题和限制
+- AutoSplitter 正在读取 Client.txt 文件，目前未考虑加载时间。当战役区域开始加载时触发分段。
+- 由于需要多次重返并击杀拉克兰，“永恒墓地”的分段不准确。需要添加“首领对话”分段事件以获得更精确的分段（进入“阴郁纠缠”时分段，击杀拉克兰时增加独立事件）。
+- 不确定第二幕中两个哈拉尼之门实例会如何表现
 
-## Using the AutoSplitter
-- The AutoSplitter comes with several Split modes: Campaign (100%), Campaign (Any%), and Level.
-    - Campaign (100%) contains all areas in the Campaign, up to The Ziggurat Refuge.
-    - Campaign (Any%) contains only mandatory Campaign areas, and Ascendancy areas.
-    - Level will automatically split on reaching the next level.
- - With 'Enable Auto Splitting' checked, the AutoSplitter will Split when you enter the named campaign area for the first time. If you are splitting by levels, it will split when levelling up.
- - The order that you enter zones is important, as the splitter can't (yet) differentiate between what zone has entered and where the Split index is. If you are planning to run a different order to what is provided, edit your splits in the 'Edit Splits' menu before starting your run.
- - 'Enable New Character Auto Start' will automatically start the timer when you enter The Riverbank.
-
-## Upcoming Features 
-
-- Boss Dialogue split case for more accurate split times (Cemetery of the Eternals)
-- Boss Rush setting for All and Mandatory Only bosses.
-- Non-linear splitting to allow out-of-order progression.
-- Test / implement compatibility with this save and quit component: https://github.com/Shotnex4/LiveSplit.TimeAttackPause
-- Tool tips on layout settings.
-- Load time removal (hopefully!)
-
-## Known Issues and Limitations
-- The AutoSplitter is reading from the Client.txt file, and currently does not account for load times. Splits occur when the campaign area begins loading.
-- Cemetery of the Eternals split is inaccurate due to requirement to revisit multiple times and kill Lachlann. Needs 'Boss Dialogue' split event to get a more accurate split (split from The Grim Tangle on enter, add separate event for killing Lachlann). 
-- Not sure how the two instances of The Halani Gates will behaves in Act 2.
-
-### Thanks
+### 感谢
 
 This is my first LiveSplit component and I learned a lot from the following repos and tutorial
 - https://github.com/brandondong/POE-LiveSplit-Component/tree/master
