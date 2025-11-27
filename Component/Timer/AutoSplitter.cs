@@ -52,7 +52,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Timer
             if (_settings.AutoSplitEnabled)
             {
                 // Automatically start the timer when player enters The Riverbank
-                if (campaignArea.Serialize() == "The Riverbank" && _settings.AutoStartEnabled)
+                if (campaignArea.Serialize() == "河岸" && _settings.AutoStartEnabled)
                 {
                     _timer.Start();
                     encounteredCampaignAreas.Add(campaignArea);
