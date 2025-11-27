@@ -66,7 +66,7 @@ namespace LiveSplit.PathOfExile2AutoSplitter.Component.Timer
                     _timer.Split();
                 }
 
-                if (campaignArea.ToString() == "The Ziggurat Refuge")
+                if (campaignArea.ToString() == "高地神塔庇護所")
                 {
                     // Additional Split() call to end the run
                     _timer.Split();
